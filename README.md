@@ -6,4 +6,4 @@ The script also includes the Proxmox VE 9 compatible subscription popup patch.
 
 
 
-![image](https://github.com/a904055262/PVE-Temp-CPUFRE-NVME/blob/main/status.jpg)
+![Proxmox VE node status with CPU frequency, temperature, and disk information](status.png)
