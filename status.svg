@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="966" height="294" viewBox="0 0 966 294" role="img" aria-label="Proxmox VE node status with CPU, kernel, boot mode, manager version, temperature, CPU frequency, SSD status, and repository status">
+  <rect width="966" height="294" fill="#242424"/>
+  <line x1="943" y1="0" x2="943" y2="294" stroke="#3a3a3a"/>
+  <line x1="959" y1="0" x2="959" y2="294" stroke="#3a3a3a"/>
+
+  <style>
+    text {
+      font-family: Arial, "DejaVu Sans", sans-serif;
+      fill: #fff;
+      font-size: 16px;
+      dominant-baseline: middle;
+    }
+    .right { text-anchor: end; }
+    .value { text-anchor: start; }
+    .label { font-weight: 400; }
+    .check { fill: #19c960; font-weight: 700; font-size: 18px; }
+    .warn { fill: #ffd21e; font-weight: 700; font-size: 18px; }
+    .chevron { fill: #fff; font-size: 36px; font-weight: 700; }
+  </style>
+
+  <text class="label" x="6" y="26">CPU(s)</text>
+  <text class="right" x="925" y="26">4 x Intel(R) N100 (1 Socket)</text>
+
+  <text class="label" x="6" y="56">Kernel Version</text>
+  <text class="right" x="925" y="56">Linux 7.0.6-2-pve (2026-05-29T11:08Z)</text>
+
+  <text class="label" x="6" y="86">Boot Mode</text>
+  <text class="right" x="925" y="86">EFI</text>
+
+  <text class="label" x="6" y="116">Manager Version</text>
+  <text class="right" x="925" y="116">pve-manager/9.2.3/d0fde103346cf89a</text>
+
+  <text class="label" x="6" y="146">Temperature (°C)</text>
+  <text class="right" x="925" y="146">CPU: 40 ( 39 | 39 | 38 | 38 ) ,crit: 105 | ACPITZ: 28 | ENP1S0: 62</text>
+
+  <text class="label" x="6" y="176">CPU Frequency (GHz)</text>
+  <text class="right" x="925" y="176">1.4 | 1.4 | 1.4 | 1.4 | MAX: 3.4 | MIN: 0.7 | Power: 4.2W | Governor: POWERSAVE</text>
+
+  <text class="label" x="6" y="206">SSD0</text>
+  <text class="value" x="205" y="206">Samsung SSD 860 PRO 256GB | Temperature: 43°C | Power-on: 54465h, cycles: 622 | SMART: OK</text>
+
+  <text class="label" x="6" y="236">SSD1</text>
+  <text class="value" x="205" y="236">Samsung SSD 860 PRO 256GB | Temperature: 42°C | Power-on: 54465h, cycles: 627 | SMART: OK</text>
+
+  <text class="label" x="6" y="266">Repository Status</text>
+  <circle cx="411" cy="267" r="9" fill="#19c960"/>
+  <text class="check" x="405" y="267">✓</text>
+  <text class="value" x="424" y="267">Proxmox VE updates</text>
+  <circle cx="596" cy="267" r="9" fill="#ffd21e"/>
+  <text class="warn" x="592" y="267">!</text>
+  <text class="value" x="609" y="267">Non production-ready repository enabled!</text>
+  <text class="chevron" x="912" y="267">›</text>
+</svg>

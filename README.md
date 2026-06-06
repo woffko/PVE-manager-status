@@ -6,4 +6,4 @@ The script also includes the Proxmox VE 9 compatible subscription popup patch.
 
 
 
-![Proxmox VE node status with CPU frequency, temperature, and disk information](status.png)
+![Proxmox VE node status with CPU frequency, temperature, and disk information](status.svg)
